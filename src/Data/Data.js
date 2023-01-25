@@ -2,7 +2,7 @@ const DUMMY_AUTO = [
   {
     id: "a1",
     price: "790.000",
-    date: "14 Haziran 2022",
+    date: "20 Ocak 2023",
     place: "İstanbul/Büyükçekmece",
     brand: "bmw",
     model: "318i Sport Plus",
@@ -31,7 +31,7 @@ const DUMMY_AUTO = [
   {
     id: "a2",
     price: "790.000",
-    date: "14 Haziran 2022",
+    date: "24 Ocak 2023",
     place: "İstanbul/Büyükçekmece",
     brand: "bmw",
     model: "318i Sport Plus",
@@ -60,7 +60,7 @@ const DUMMY_AUTO = [
   {
     id: "a3",
     price: "790.000",
-    date: "14 Haziran 2022",
+    date: "22 Ocak 2023",
     place: "İstanbul/Büyükçekmece",
     brand: "bmw",
     model: "318i Sport Plus",
