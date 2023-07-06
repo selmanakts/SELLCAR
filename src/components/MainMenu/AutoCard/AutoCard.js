@@ -14,6 +14,7 @@ const AutoCard = (props) => {
                 src={props.imageURL[0]}
                 alt="Card image cap"
               />
+              
             </div>
             <div style={{ width: "160px" }}>{props.model}</div>
             <div style={{ width: "248.675px" }}>{props.title}</div>

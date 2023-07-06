@@ -28,6 +28,7 @@ const Navi = () => {
           <Nav className="me-auto" navbar/>
           <div style={{marginRight: "5px"}}>
           <a href="/addAuto">
+            
             <Button>İlan ver</Button>
           </a>
           </div>

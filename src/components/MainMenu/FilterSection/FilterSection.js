@@ -19,6 +19,7 @@ const FilterSection = ({
   setSearchCaseType,
   searchColor,
   setSearchColor,
+  
   searchChangingAndPaint,
   setSearchChangingAndPaint,
   searchTraction,
