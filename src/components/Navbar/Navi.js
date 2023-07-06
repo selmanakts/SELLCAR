@@ -25,12 +25,13 @@ const Navi = () => {
         <NavbarBrand href="/">SellCar</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
-            <NavItem>
-            </NavItem>
-          </Nav>
-          <NavLink href="/addAuto">İlan ver</NavLink>
-          {user ? (<SignOut />):( <SignIn />)}
+          <Nav className="me-auto" navbar/>
+          <div style={{marginRight: "5px"}}>
+          <a href="/addAuto">
+            <Button>İlan ver</Button>
+          </a>
+          </div>
+          {user ? <SignOut /> : <SignIn />}
         </Collapse>
       </Navbar>
     </div>
